@@ -1,0 +1,221 @@
+/* global style */
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+
+}
+.main-heading h3{
+letter-spacing: 20px;
+font-size: 50px;
+font-weight: bolder;
+text-align: center;
+margin: 20px 0;
+}
+.btn{
+    padding: 15px 25px;
+    margin: 20px 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    width: 1000px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* nav */
+.nav-bar{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: baseline;
+   background-color: rgb(31, 31, 31);
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+  .nan-logo{
+    margin-left: 30px;
+    font-size: 30px;
+   a{
+    color: white;
+   }
+  }
+}
+.nav-links ul{
+display: flex;
+margin-right: 0;
+li{
+padding-right: 30px;
+font-size: 20px;
+a{
+    color: white;
+
+}
+}
+}
+/* hero */
+.hero{
+    background-image: url(../imgs/pexels-anton-atanasov-1655901.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.556);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero-text{
+        width: 500px;
+        background-color: rgba(240, 255, 255, 0.337);
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        h3{
+margin: 15px;
+        }
+    }
+}
+/* about */
+.about{
+    height: 70vh;
+    padding: 30px 0;
+    text-align: center;
+   .about-text {
+color: rgb(37, 37, 37);
+line-height: 2rem;
+width: 500px;
+margin: 50px auto;
+
+    }
+}
+/* services */
+.services{
+    background-image: url(../imgs/686998.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+    .services-row{
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        text-align: center;
+        .services-box{
+            width: 30%;
+            background-color: #eeeeeea3;
+            padding: 20px 10px;
+            .services-icon{
+                font-size: 30px;
+                color: rgb(74, 74, 74);
+            }
+            h3{
+                padding-top: 20px;
+                padding-bottom:20px ;
+                font-size: 25px;
+            }
+            p{
+                line-height: 2rem;
+                color: rgb(50, 50, 50);
+            }
+        }
+    }
+}
+/* portofolio */
+.portofolio{
+    height: 80vh;
+    .row{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-content: baseline;
+        justify-content: center;
+        .port-text{
+            margin: 10px ;
+            h3{
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            p{
+                line-height: 2rem;
+                color: rgb(71, 71, 71);
+            }
+        }
+        .port-img{
+            width: 40%;
+            height: 500px;
+            img{
+                width: 100%;
+            }
+        }
+        
+    }
+}
+/* location */
+.location{
+    height: 100vh;
+    background-color: black;
+    padding: 30px 0;
+    color: white;
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+       
+    }
+    .info{
+        width: 35%;
+        ul li{
+            margin: 20px 5px;
+            padding: 20px 10px;
+           color: rgb(227, 227, 227);
+           line-height: 1.5rem;
+           word-spacing: 6px;
+            i{
+                padding-right: 20px;
+                font-size: 25px;
+                
+            }
+        }
+    }
+ .map   {
+width: 60%;
+    }
+}
+/* footer */
+footer{
+    height: 20vh;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 87, 87);
+   .social-icons{
+    border-bottom: 1px solid rgb(55, 55, 55);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+   }
+}
+
+.footer-text{
+    text-align: center;
+}
